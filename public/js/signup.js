@@ -50,6 +50,7 @@ $(document).ready(function () {
     })
       .then(function (data) {
         window.location.replace("/members");
+        //window.location.replace(data);
         // used to be window.location.replace("/members"); //wrong code, should be replace(data) ALG
         // If there's an error, handle it by throwing up a bootstrap alert
       })
@@ -62,3 +63,4 @@ $(document).ready(function () {
     console.log(err);
   }
 });
+n;
